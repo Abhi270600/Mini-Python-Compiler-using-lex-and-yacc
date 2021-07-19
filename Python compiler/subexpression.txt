@@ -1,0 +1,24 @@
+=	2	-	T2
+=	T2	-	x
+=	1	-	T5
+=	T5	-	y
+=	3	-	T8
+=	T8	-	a
+=	4	-	T11
+=	T11	-	b
+=	0	-	T14
+=	T14	-	i
+=	1	-	T17
+=	5	-	T18
+Range	T17	T18	T19
+Label	-	-	L0
+If False	T19	-	L1
+=	1	-	T20
+=	T20	-	c
+=	c	-	T23
+=	2	-	T24
++	T23	T24	T25
+=	T25	-	d
+goto	-	-	L0
+Label	-	-	L1
+
